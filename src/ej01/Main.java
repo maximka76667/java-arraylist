@@ -11,7 +11,7 @@ public class Main {
 
 		ArrayList<Double> temperaturas = new ArrayList<Double>();
 
-		double temperaturaMaxima = Double.MIN_VALUE;
+		double temperaturaMaxima = -Double.MAX_VALUE;
 		double temperaturaMinima = Double.MAX_VALUE;
 		double suma = 0;
 
