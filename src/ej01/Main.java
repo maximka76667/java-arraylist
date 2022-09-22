@@ -17,23 +17,23 @@ public class Main {
 
 		while (true) {
 			System.out.println("Teclee temperatura (-100 para salir):");
-			double temp = input.nextDouble();
+			double temperatura = input.nextDouble();
 
-			if (temp <= -100) {
+			if (temperatura <= -100) {
 				break;
 			}
 
-			if (temp > temperaturaMaxima) {
-				temperaturaMaxima = temp;
+			if (temperatura > temperaturaMaxima) {
+				temperaturaMaxima = temperatura;
 			}
 
-			if (temp < temperaturaMinima) {
-				temperaturaMinima = temp;
+			if (temperatura < temperaturaMinima) {
+				temperaturaMinima = temperatura;
 			}
 
-			suma += temp;
+			suma += temperatura;
 
-			temperaturas.add(temp);
+			temperaturas.add(temperatura);
 		}
 
 		// Ordenadas de mayor a menor
